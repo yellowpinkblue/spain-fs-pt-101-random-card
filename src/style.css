@@ -1,5 +1,10 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(21, 126, 63);
+}
+
+.card-body {
+    font-family: Bigshot One;
+    font-size: 4.5em;
 }

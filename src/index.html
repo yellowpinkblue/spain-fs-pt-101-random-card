@@ -16,18 +16,17 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <!-- añadir redondeado carta -->
+     <!-- añadir sombreado cartas -->
+      <!-- cambiar estilo cartas a no-group + centrar (flex?) -->
+     <div class="d-flex justify-content-center mt-5">
+
+       <div class="card border-dark" style="width: 18rem; height: 28rem;" id="cartas">
+         <p class="card-head border-0 fs-1 ps-3 pt-2" id="paloCabeza">♠</p>
+         <p class="card-body border-0 text-center py-5 mt-5 fw-bold" id="numCarta">7</p>
+         <p class="card-text-footer border-0 text-end fs-1 pe-3" id="paloFooter">♠</p>
+        </div>
       </div>
-    </div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
